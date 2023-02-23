@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>signup</title>
     <style>
         #image{
             float: left;
-            width: 50%;
-            margin-right: 10px;
-            height: 800%;
+
+        }
+        .container{
+            justify-content: space-between;
         }
 
     </style>
 </head>
-<body style="background-color: aquamarine;">
-    <img src="web.jpeg" id="image">
+<body style="background-color: aqua;">
+    <div class="container">
+    <div class="Conainer"><img src="wp.jpeg" alt="picture"></div>
+        <div>
     <form action="signup.html">
         <h1 id="heading">Hey,hello welcome</h1>
-        <label for="email">email:</label>
+        <label for="email">email:</label><br>
         <input type="email" name="email" placeholder="Enter your email"/>
         <br/>
         <br/>
-        <label for="Password"> Password:</label>
+        <label for="Password"> Password:</label><br>
         <input type="password" name="Password" placeholder="Enter your password"/>
         <br/>
         <br/>
@@ -33,7 +37,7 @@
         <label>
             Do you have an account?
 
-        </label>
+        </label><br>
        <button><a href="login.html"></a>sign-up</button>
         </br>
         </br>
@@ -41,6 +45,9 @@
         </button>
     
     </form>
+    </div>
+    </div>
+
     
 </body>
 </html>
